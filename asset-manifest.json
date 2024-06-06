@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/alphamedia-portfolio/static/css/main.77bbb6c7.css",
-    "main.js": "/alphamedia-portfolio/static/js/main.17a6096c.js",
+    "main.css": "/alphamedia-portfolio/static/css/main.cdc7312d.css",
+    "main.js": "/alphamedia-portfolio/static/js/main.0d9a911d.js",
     "static/js/453.125ef670.chunk.js": "/alphamedia-portfolio/static/js/453.125ef670.chunk.js",
     "static/media/compprofile.png": "/alphamedia-portfolio/static/media/compprofile.2defe66d6f576edf9f7a.png",
     "static/media/btsrkn.mp4": "/alphamedia-portfolio/static/media/btsrkn.87a47f631b3bc5f98845.mp4",
@@ -24,12 +24,12 @@
     "static/media/nav-icon3.svg": "/alphamedia-portfolio/static/media/nav-icon3.08b285abb8e118b52637efa5d65c5367.svg",
     "static/media/tiktok-logo.svg": "/alphamedia-portfolio/static/media/tiktok-logo.abd5a7684f0c75e0c838edf858faf256.svg",
     "static/media/nav-icon1.svg": "/alphamedia-portfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
-    "main.77bbb6c7.css.map": "/alphamedia-portfolio/static/css/main.77bbb6c7.css.map",
-    "main.17a6096c.js.map": "/alphamedia-portfolio/static/js/main.17a6096c.js.map",
+    "main.cdc7312d.css.map": "/alphamedia-portfolio/static/css/main.cdc7312d.css.map",
+    "main.0d9a911d.js.map": "/alphamedia-portfolio/static/js/main.0d9a911d.js.map",
     "453.125ef670.chunk.js.map": "/alphamedia-portfolio/static/js/453.125ef670.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.77bbb6c7.css",
-    "static/js/main.17a6096c.js"
+    "static/css/main.cdc7312d.css",
+    "static/js/main.0d9a911d.js"
   ]
 }
