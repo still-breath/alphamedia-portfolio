@@ -322,15 +322,21 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .company .firstpara {
-  padding: 0 0 100px 0;
+  padding: 0 0 100px 50px;
 }
 
 .company .secpara {
-  padding: 40px 0 100px 0;
+  padding: 0 0 100px 0;
+}
+
+.company li{
+  text-align: justify;
+  margin-top: 20px;
+  font-size: 20px;
 }
 
 .company p {
-  margin-top: 50px;
+  margin-top: 20px;
   font-size: 20px;
   text-indent: 40px;
   text-align: justify;
