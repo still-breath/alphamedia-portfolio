@@ -30,7 +30,7 @@ export const NavBar = ({ onNavClick }) => {
     };
 
     const handleWhatsAppClick = () => {
-        window.open("https://wa.me/628999109204", "_blank");
+        window.open("https://wa.me/6285186866256", "_blank");
     };
     const handleInstagramClick = () => {
         window.open("https://www.instagram.com/alphamedia.creative", "_blank");
