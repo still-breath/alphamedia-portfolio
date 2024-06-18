@@ -62,7 +62,6 @@ export const Projects = () => {
             <Container>
                 <Row>
                     <Col>
-                        <h2></h2>
                         <Tab.Container id="projects-tabs" defaultActiveKey="first">
                         <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                             <Nav.Item>

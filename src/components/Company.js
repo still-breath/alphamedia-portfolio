@@ -1,8 +1,6 @@
 // src/components/Company.js
 import React from 'react';
 import { Col, Container, Row } from "react-bootstrap";
-import aisas from "../assets/img/aisas.png";
-import compprof from "../assets/img/compprofile.png";
 
 export const Company = () => {
     const points = [
