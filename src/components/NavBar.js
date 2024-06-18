@@ -32,13 +32,6 @@ export const NavBar = ({ onNavClick }) => {
     const handleWhatsAppClick = () => {
         window.open("https://wa.me/6285186866256", "_blank");
     };
-    const handleInstagramClick = () => {
-        window.open("https://www.instagram.com/alphamedia.creative", "_blank");
-    };
-    const handleTiktokClick = () => {
-        window.open("https://www.tiktok.com/@alphamedia.creative", "_blank");
-    };
-
     return (
         <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
             <Container>

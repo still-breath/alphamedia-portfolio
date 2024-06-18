@@ -7,12 +7,12 @@ import logoAlpha from "../assets/img/logo-alpha-brand.svg";
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const toRotate = ["Crafting", " Creatively", " One-Click Away"];
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const period = 2000;
 
     const tick = useCallback(() => {
+        const toRotate = ["Crafting", " Creatively", " One-Click Away"];
         let i = loopNum % toRotate.length;
         let fullText = toRotate[i];
         let updatedText = isDeleting ? fullText.substring(0, text.length - 1) : fullText.substring(0, text.length + 1);
@@ -31,7 +31,7 @@ export const Banner = () => {
             setLoopNum(loopNum + 1);
             setDelta(500);
         }
-    }, [isDeleting, loopNum, text.length, toRotate, period]);
+    }, [isDeleting, loopNum, text.length, period]);
 
     useEffect(() => {
         let ticker = setInterval(() => {
