@@ -53,7 +53,7 @@ export const NavBar = ({ onNavClick }) => {
                             href="#" 
                             className={`navbar-link ${activeLink === 'company' ? 'active' : ''}`} 
                             onClick={(e) => { e.preventDefault(); handleNavClick('company'); }}>
-                            Company
+                            About
                         </Nav.Link>
                         <Nav.Link 
                             href="#" 
