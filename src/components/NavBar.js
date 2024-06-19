@@ -65,8 +65,8 @@ export const NavBar = ({ onNavClick }) => {
                     <span className="navbar-text">
                         <div className="social-icon">
                             <a><img src={navIcon1} alt="Linkedin Alpha-Media" /></a>
-                            <a href="https://www.tiktok.com/@alphamedia.creative" target="_blank"><img src={navIcon2} alt="TikTok Alpha-Media" /></a>
-                            <a href="https://www.tiktok.com/@alphamedia.creative" target="_blank"><img src={navIcon3} alt="Instagram Alpha-Media" /></a>
+                            <a href="https://www.tiktok.com/@alphamedia.creative" target="_blank" rel="noopener noreferrer"><img src={navIcon2} alt="TikTok Alpha-Media" /></a>
+                            <a href="https://www.tiktok.com/@alphamedia.creative" target="_blank" rel="noopener noreferrer"><img src={navIcon3} alt="Instagram Alpha-Media" /></a>
                         </div>
                         <button className="vvd" onClick={handleWhatsAppClick}><span>Let's Connect</span></button>
                     </span>
