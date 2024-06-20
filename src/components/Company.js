@@ -6,13 +6,14 @@ export const Company = () => {
     return (
         <section className="company" id="profile">
             <Container>
-                <iframe
-                    style={{ width: '1200px', height: '700px', paddingTop: '10px'}}
-                    src="https://online.pubhtml5.com/gmlvu/veyu/"
-                    seamless="seamless"
-                    allowTransparency="true"
-                    allowFullScreen="true"
-                ></iframe>
+                <div className="iframe-container">
+                    <iframe
+                        src="https://online.pubhtml5.com/gmlvu/veyu/"
+                        seamless="seamless"
+                        allowTransparency="true"
+                        allowFullScreen="true"
+                    ></iframe>
+                </div>
             </Container>
         </section>
     );
