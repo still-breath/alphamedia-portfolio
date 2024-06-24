@@ -3,57 +3,37 @@ import { Col, Container, Row, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
-import projVid1 from "../assets/vid/btsrkn.mp4";
+import projVid1 from "../assets/vid/konten1_segonyimut.mp4";
+import projVid2 from "../assets/vid/btsrkn.mp4";
 import myImage from "../assets/img/projMasc.png";
 
 export const Projects = () => {
 
     const projects = [
         {
-            title: "meriam.id",
-            description: "GSM Design for FnB UMKM",
+            title: "ANSPRO",
+            description: "GSM Design still in progress",
             imgUrl: projImg1,
-        },
-        {
-            title: "Anspro",
-            description: "GSM Design for Cosmetic UMKM",
-            imgUrl: projImg2,
-        },
-        {
-            title: "Anspro",
-            description: "GSM Design for Cosmetic UMKM",
-            imgUrl: projImg3,
         },
     ];
     const video = [
         {
-            title: "Rumah Kopi Nusantara",
-            description: "Video Profile of RKN",
+            title: "Sego Nyimut Surabaya",
+            description: "Starterpack APD by Sego Nyimut Surabaya",
             videoUrl: projVid1,
+            href: "https://www.instagram.com/reel/C8jzdQYJZsN/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
         },
         {
             title: "Rumah Kopi Nusantara",
-            description: "Video Profile of RKN",
-            videoUrl: projVid1,
+            description: "Profile video still in progress",
+            videoUrl: projVid2,
         },
     ];
     const advance = [
         {
-            title: "meriam.id",
-            description: "GSM Design for FnB UMKM",
+            title: "404: Not Found",
+            description: "Advance projects have not yet been found",
             imgUrl: projImg1,
-        },
-        {
-            title: "Anspro",
-            description: "GSM Design for Cosmetic UMKM",
-            imgUrl: projImg2,
-        },
-        {
-            title: "Anspro",
-            description: "GSM Design for Cosmetic UMKM",
-            imgUrl: projImg3,
         },
     ];
 
