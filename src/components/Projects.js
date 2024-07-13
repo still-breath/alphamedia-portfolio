@@ -2,18 +2,20 @@
 import { Col, Container, Row, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import colorSharp2 from "../assets/img/color-sharp2.png";
-import projImg1 from "../assets/img/project-img1.png";
+import projImg1 from "../assets/img/design1_kpbawang.svg";
 import projVid1 from "../assets/vid/konten1_segonyimut.mp4";
 import projVid2 from "../assets/vid/btsrkn.mp4";
-import projVid3 from "../assets/vid/konten2_segonyimut.mp4"
+import projVid3 from "../assets/vid/konten2_segonyimut.mp4";
+import projAdv1 from "../assets/img/adv1_segonyimutsby.png";
+import notfound from "../assets/img/404notfound.png";
 import myImage from "../assets/img/projMasc.png";
 
 export const Projects = () => {
 
     const projects = [
         {
-            title: "ANSPRO",
-            description: "GSM Design still in progress",
+            title: "Kampung Bawang Simokerto",
+            description: "GSM Project for Kampung Bawang Simokerto",
             imgUrl: projImg1,
         },
     ];
@@ -38,9 +40,14 @@ export const Projects = () => {
     ];
     const advance = [
         {
+            title: "Sego Nyimut Surabaya",
+            description: "The outcome of implementing adVance at Sego Nyimut Surabaya",
+            imgUrl: projAdv1,
+        },
+        {
             title: "404: Not Found",
             description: "Advance projects have not yet been found",
-            imgUrl: projImg1,
+            imgUrl: notfound,
         },
     ];
 
